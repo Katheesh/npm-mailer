@@ -31,5 +31,8 @@
   "bugs": {
     "url": "https://github.com/Katheesh/vue-mailer/issues"
   },
-  "homepage": "https://github.com/Katheesh/vue-mailer#readme"
+  "homepage": "https://github.com/Katheesh/vue-mailer#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
