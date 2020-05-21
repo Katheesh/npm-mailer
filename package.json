@@ -1,0 +1,35 @@
+{
+  "name": "vue-mailer",
+  "version": "1.0.0",
+  "description": "This mailing application package created to send mails by vue cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Katheesh/vue-mailer.git"
+  },
+  "keywords": [
+    "vue",
+    "mailer",
+    "cli",
+    "mailer",
+    "vue",
+    "static",
+    "mailer",
+    "static",
+    "page",
+    "mailer",
+    "react",
+    "mailer",
+    "sample",
+    "mailer"
+  ],
+  "author": "S. Katheeskumar (GitLeaf)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Katheesh/vue-mailer/issues"
+  },
+  "homepage": "https://github.com/Katheesh/vue-mailer#readme"
+}
