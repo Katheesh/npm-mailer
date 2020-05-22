@@ -16,41 +16,22 @@ npm i vue-mailer
 
 ## Usage
 
-It is simple. couple of lines all what you need.
-
-```javascript
-// register the plugin on vue
-import Mailer from 'vue-mailer';
-
-Vue.use(Mailer)
-
-// you can also pass options, check options reference below
-Vue.use(Mailer, Options)
-
-```
-
-All Good Now you have this cool mailer in your project..
-
-# simple-hello-world-example
-A Simple Hello World Example Package
-
-## Installation
-Install via NPM:
-
-```bash
-npm install simple-hello-world-example
-
-```
-
-## Usage
-
 #### javascript
 
 ```javascript
 
-var myApp = require("simple-hello-world-example");
+var Mailer = require("vue-mailer");
 
-myApp.printMsg(); // print and return " Hello World! " 
+var Data = 
+{
+    "to": "katheeskumar@outlook.com",
+    "from":"no-replay@domain.com",
+    "subject": "Sample Mail from vue-mailer",
+    "title": "Sample Mail from vue-mailer",
+    "body"  : "Hello there, I'm Katheeskumar. I love coding and proud to present this open source application"
+}
+//console.log(Data.name)
+console.log(Mailer.prepare(Data)) // i'ts return json format
 
 ```
 
@@ -58,9 +39,18 @@ myApp.printMsg(); // print and return " Hello World! "
 
 ```typescript
 
-import * as myApp from 'simple-hello-world-example';
+import * as Mailer from 'vue-mailer';
 
-myApp.printMsg(); // print and return " Hello World! " 
+var Data = 
+{
+    "to": "katheeskumar@outlook.com",
+    "from":"no-replay@domain.com",
+    "subject": "Sample Mail from vue-mailer",
+    "title": "Sample Mail from vue-mailer",
+    "body"  : "Hello there, I'm Katheeskumar. I love coding and proud to present this open source application"
+}
+
+Mailer.prepare(Data); // print and return json response. 
 
 
 ```
@@ -68,4 +58,4 @@ myApp.printMsg(); // print and return " Hello World! "
 ## License
 
 This project is licensed under the terms of the
-[MIT license](/LICENSE).
+[MIT license](https://gitleaf.com/).
