@@ -3,9 +3,14 @@ var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 //var xhr = new XMLHttpRequest()
 exports.prepare = function(Data) {
 
-	console.log(Data);
+	//console.log(Data);
+   /* Data = [to
+            from
+            subject
+            title
+            body ]*/
 
-	const theUrl = 'https://postman-echo.com/get?foo1=bar1&foo2=bar';
+	const theUrl = 'https://vue-mailer.herokuapp.com/api/prepare?to='+Data.to+'&from='+Data.from+'&subject='+Data.subject+'&title='+Data.title+'&body='+Data.body;
 
 	var xmlHttp = new XMLHttpRequest();
     xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
