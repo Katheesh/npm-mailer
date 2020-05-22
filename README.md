@@ -1,8 +1,9 @@
 # Vue-Mailer
 ### This package has a powerful laravel back-end application for posting mail service.
-#### This package developed by S.Katheeskumar
-[image](https://gitleaf.com/img/quote.png)
-<hr>
+#### Package developed by S.Katheeskumar
+<img src="https://gitleaf.com/img/quote.png"/>
+<hr/>
+
 ## Installation
 
 #### Install using npm
