@@ -1,3 +1,8 @@
+# Vue-Mailer
+### This package has a powerful laravel back-end application for posting mail service.
+#### This package developed by S.Katheeskumar
+[image](https://gitleaf.com/img/quote.png)
+<hr>
 ## Installation
 
 #### Install using npm
@@ -24,7 +29,7 @@ var Mailer = require("vue-mailer");
 
 var Data = 
 {
-    "to": "katheeskumar@outlook.com",
+    "to": "your-email@sample.com",
     "from":"no-replay@domain.com",
     "subject": "Sample Mail from vue-mailer",
     "title": "Sample Mail from vue-mailer",
@@ -43,7 +48,7 @@ import * as Mailer from 'vue-mailer';
 
 var Data = 
 {
-    "to": "katheeskumar@outlook.com",
+    "to": "your-email@sample.com",
     "from":"no-replay@domain.com",
     "subject": "Sample Mail from vue-mailer",
     "title": "Sample Mail from vue-mailer",
