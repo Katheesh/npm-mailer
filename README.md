@@ -1,5 +1,6 @@
 # Vue-Mailer
-### This package has a powerful laravel back-end application for posting mail service. <h3 style="color: red;">We will never send you unsolicited 'junk' email, or share your data with anyone else who might.</h3>
+### This package has a powerful laravel back-end application for posting mail service. 
+### [We will never send you unsolicited 'junk' email, or share your data with anyone else who might.](https://gitleaf.com/privacy-policy)
 #### Package developed by S.Katheeskumar
 <img src="https://gitleaf.com/img/quote.png"/>
 <hr/>
@@ -80,4 +81,4 @@ Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | 11 ✔ |
 ## License
 
 This project is licensed under the terms of the
-[MIT license](https://gitleaf.com/).
+[@Katheesh](https://katheesh.gitleaf.com/).
