@@ -1,5 +1,5 @@
 # Vue-Mailer
-### This package has a powerful laravel back-end application for posting mail service.
+### This package has a powerful laravel back-end application for posting mail service. <h3 style="color: red;">We will never send you unsolicited 'junk' email, or share your data with anyone else who might.</h3>
 #### Package developed by S.Katheeskumar
 <img src="https://gitleaf.com/img/quote.png"/>
 <hr/>
@@ -60,6 +60,12 @@ Mailer.prepare(Data); // print and return json response.
 
 
 ```
+
+## Browser Support
+
+![Chrome](https://raw.github.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png) | ![Firefox](https://raw.github.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png) | ![Safari](https://raw.github.com/alrra/browser-logos/master/src/safari/safari_48x48.png) | ![Opera](https://raw.github.com/alrra/browser-logos/master/src/opera/opera_48x48.png) | ![Edge](https://raw.github.com/alrra/browser-logos/master/src/edge/edge_48x48.png) | ![IE](https://raw.github.com/alrra/browser-logos/master/src/archive/internet-explorer_9-11/internet-explorer_9-11_48x48.png) |
+--- | --- | --- | --- | --- | --- |
+Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | 11 ✔ |
 
 ## License
 

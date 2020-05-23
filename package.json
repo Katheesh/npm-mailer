@@ -12,19 +12,19 @@
   },
   "keywords": [
     "vue",
-    "mailer",
+    "mailing",
     "cli",
-    "mailer",
+    "js",
     "vue",
     "static",
-    "mailer",
-    "static",
+    "api",
+    "html",
     "page",
-    "mailer",
+    "http",
     "react",
     "mailer",
-    "sample",
-    "mailer"
+    "mail",
+    "api_mail"
   ],
   "author": "S. Katheeskumar (GitLeaf)",
   "license": "MIT",
@@ -33,6 +33,7 @@
   },
   "homepage": "https://github.com/Katheesh/vue-mailer#readme",
   "dependencies": {
+    "axios": "^0.19.2",
     "xmlhttprequest": "^1.8.0"
   }
 }

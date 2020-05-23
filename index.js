@@ -1,14 +1,14 @@
-//var Mailer = require('./src/index.js');
 var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
-//var xhr = new XMLHttpRequest()
+
 exports.prepare = function(Data) {
 
 	//console.log(Data);
-   /* Data = [to
-            from
-            subject
-            title
-            body ]*/
+
+    // to = Reciever Email Address
+    // from = Sender Email Address
+    // subject = Email Main Subject
+    // title = This title appear on top of body in h2 
+    // body = add this parameter like plain text or html
 
 	const theUrl = 'https://vue-mailer.herokuapp.com/api/prepare?to='+Data.to+'&from='+Data.from+'&subject='+Data.subject+'&title='+Data.title+'&body='+Data.body;
 
@@ -18,7 +18,47 @@ exports.prepare = function(Data) {
     return xmlHttp.responseText;
 }
 
-/* this.mail = function(theUrl)
+exports.prepareMarkdown = function(Data) {
+
+    //console.log(Data);
+
+    // to = Reciever Email Address
+    // from = Sender Email Address
+    // subject = Email Main Subject
+    // title = This title appear on top of body in h2 
+    // body = add this parameter like plain text or markdown
+
+    const theUrl = 'https://vue-mailer.herokuapp.com/api/prepare:md?to='+Data.to+'&from='+Data.from+'&subject='+Data.subject+'&title='+Data.title+'&body='+Data.body;
+
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
+    xmlHttp.send( null );
+    return xmlHttp.responseText;
+}
+
+/* 
+
+exports.prepare = async function(Data) {
+
+    const axios = require('axios');
+    var theUrl = 'https://vue-mailer.herokuapp.com/api/prepare?to='+Data.to+'&from='+Data.from+'&subject='+Data.subject+'&title='+Data.title+'&body='+Data.body;
+
+    axios.get(theUrl)
+      .then(function (getResponse) {
+        // handle success
+        console.log(getResponse.data);
+        //return getResponse.data;
+      })
+      .catch(function (error) {
+        // handle error
+        console.log(error);
+      })
+      .finally(function () {
+        // always executed
+      });
+}
+
+this.mail = function(theUrl)
 {
     var xmlHttp = new XMLHttpRequest();
     xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
