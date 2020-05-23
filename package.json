@@ -33,7 +33,6 @@
   },
   "homepage": "https://github.com/Katheesh/vue-mailer#readme",
   "dependencies": {
-    "axios": "^0.19.2",
     "xmlhttprequest": "^1.8.0"
   }
 }

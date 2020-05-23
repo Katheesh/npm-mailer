@@ -21,6 +21,13 @@ npm i vue-mailer
 #### [GitLeaf](https://gitleaf.com/) Officially uses `vue-mailer` for their mailing module.
 
 ## Usage
+```bash
+    # to = Reciever Email Address
+    # from = Sender Email Address
+    # subject = Email Main Subject
+    # title = This title appear on top of body in h2 
+    # body = add this parameter like plain text or html or markdown
+```
 
 #### javascript
 
@@ -36,8 +43,11 @@ var Data =
     "title": "Sample Mail from vue-mailer",
     "body"  : "Hello there, I'm Katheeskumar. I love coding and proud to present this open source application"
 }
-//console.log(Data.name)
+//  Html / Plaintext mailing
 console.log(Mailer.prepare(Data)) // i'ts return json format
+
+//  Markdown mailing
+console.log(Mailer.prepareMarkdown(Data)) // i'ts return json format
 
 ```
 
