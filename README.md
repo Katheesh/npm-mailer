@@ -1,7 +1,8 @@
 # Vue-Mailer
 ### This package has a powerful laravel back-end application for posting mail service. 
 #### [We will never send you unsolicited 'junk' email, or share your data with anyone else who might.](https://gitleaf.com/privacy-policy)
-#### Package developed by S.Katheeskumar
+#### Package developed by [S.Katheeskumar](https://katheesh.github.io) 
+##### [Support](https://www.buymeacoffee.com/katheesh) buy me a coffee
 <img src="https://gitleaf.com/img/quote.png"/>
 <hr/>
 
