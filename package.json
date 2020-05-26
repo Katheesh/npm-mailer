@@ -35,5 +35,5 @@
   "dependencies": {
     "xmlhttprequest": "^1.8.0"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+  "publishConfig": { "registry": "https://npm.pkg.github.com/vue-mailer" }
 }
