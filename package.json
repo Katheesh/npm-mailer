@@ -34,5 +34,6 @@
   "homepage": "https://github.com/Katheesh/vue-mailer#readme",
   "dependencies": {
     "xmlhttprequest": "^1.8.0"
-  }
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
