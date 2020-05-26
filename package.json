@@ -1,7 +1,7 @@
 {
   "name": "vue-mailer",
-  "version": "1.0.7",
-  "description": "This mailing application package created to send mails by vue cli",
+  "version": "1.0.8",
+  "description": "This mailing application package created to send mails using javascript",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
