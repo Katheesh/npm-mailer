@@ -3,7 +3,7 @@ var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 exports.prepare = function(Data) {
 
 	//console.log(Data);
-
+    //--------------------------------------------------
     // to = Reciever Email Address
     // from = Sender Email Address
     // subject = Email Main Subject
@@ -21,7 +21,7 @@ exports.prepare = function(Data) {
 exports.prepareMarkdown = function(Data) {
 
     //console.log(Data);
-
+    //------------------------------------------------------
     // to = Reciever Email Address
     // from = Sender Email Address
     // subject = Email Main Subject

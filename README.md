@@ -2,7 +2,10 @@
 ### This package has a powerful laravel back-end application for posting mail service. 
 #### [We will never send you unsolicited 'junk' email, or share your data with anyone else who might.](https://gitleaf.com/privacy-policy)
 #### Package developed by [S.Katheeskumar](https://katheesh.github.io) 
-##### [Support](https://www.buymeacoffee.com/katheesh) buy me a coffee
+##### [Support & Become a Patron!](https://www.patreon.com/bePatron?u=32135007) 
+<a href="https://www.patreon.com/bePatron?u=32135007" data-patreon-widget-type="become-patron-button"><img src="https://i.ya-webdesign.com/images/patreon-link-button-png-2.png"/></a>
+<hr>
+
 <img src="https://gitleaf.com/img/quote.png"/>
 <hr/>
 
