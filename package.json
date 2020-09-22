@@ -1,6 +1,6 @@
 {
-  "name": "vue-mailer",
-  "version": "1.0.9",
+  "name": "npm-mailer",
+  "version": "1.1.0",
   "description": "This mailing application package created to send mails using javascript",
   "main": "index.js",
   "scripts": {
