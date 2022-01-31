@@ -1,4 +1,4 @@
-# Vue-Mailer
+# NPM-Mailer
 ### This package has a powerful laravel back-end application for posting mail service. 
 #### [We will never send you unsolicited 'junk' email, or share your data with anyone else who might.](https://gitleaf.com/privacy-policy)
 #### Package developed by [S.Katheeskumar](https://katheesh.github.io) 
@@ -11,16 +11,16 @@
 #### Install using npm
 ```bash
 # install it via npm
-npm install vue-mailer --save
+npm install npm-mailer --save
 
 OR
 
-npm i vue-mailer
+npm i npm-mailer
 ```
 
 <hr>
 
-#### [GitLeaf](https://gitleaf.com/) Officially uses `vue-mailer` for their mailing module.
+#### [GitLeaf](https://gitleaf.com/) Officially uses `npm-mailer` for their mailing module.
 
 ## Usage
 ```bash
@@ -35,7 +35,7 @@ npm i vue-mailer
 
 ```javascript
 
-var Mailer = require("vue-mailer");
+var Mailer = require("npm-mailer");
 
 var Data = 
 {
@@ -57,7 +57,7 @@ console.log(Mailer.prepareMarkdown(Data)) // i'ts return json format
 
 ```typescript
 
-import * as Mailer from 'vue-mailer';
+import * as Mailer from 'npm-mailer';
 
 var Data = 
 {
@@ -72,9 +72,6 @@ Mailer.prepare(Data); // print and return json response.
 
 
 ```
-
-### [Support & Become a Patron!](https://www.patreon.com/bePatron?u=32135007) 
-<a href="https://www.patreon.com/bePatron?u=32135007" data-patreon-widget-type="become-patron-button"><img src="https://i.ya-webdesign.com/images/patreon-link-button-png-2.png"/></a>
 <hr>
 
 ## Browser Support
